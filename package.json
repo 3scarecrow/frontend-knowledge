@@ -1,0 +1,22 @@
+{
+  "name": "frontend-knowledge",
+  "version": "1.0.0",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev ./docs",
+    "build": "vuepress build ./docs",
+    "deploy": "sh build/deploy.sh"
+  },
+  "repository": "https://github.com/3scarecrow/frontend-knowledge.git",
+  "author": "sunjunhao <3sunjunhao@emial.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3scarecrow/frontend-knowledge/issues"
+  },
+  "homepage": "https://github.com/3scarecrow/frontend-knowledge#readme",
+  "devDependencies": {
+    "vuepress": "^1.5.2"
+  }
+}
