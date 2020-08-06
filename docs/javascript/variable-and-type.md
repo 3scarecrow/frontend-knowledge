@@ -454,6 +454,7 @@ true == [1] // true
 [如何让a == 1 && a == 2 && a == 3 的值为 true?](https://github.com/YvetteLau/Step-By-Step/issues/9)
 
 ::: details 点击查看代码
+
 1. 重写 Number 包装对象的 valueOf 方法
 
 ```JS

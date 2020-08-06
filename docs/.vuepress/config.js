@@ -10,20 +10,35 @@ module.exports = {
     lastUpdated: '上次更新',
     sidebar: [
       {
-        title: 'javascript',   // 必要的
-        collapsable: false, // 可选的, 默认值是 true,
-        sidebarDepth: 1,    // 可选的, 默认值是 1
+        title: 'Home',
         children: [
-          '/javascript/variable-and-type',
-          '/javascript/execution-context',
-          '/javascript/scope-chain-and-closure',
-          '/javascript/prototype-chain'
+          '/'
+        ]
+      },
+      {
+        title: 'JavaScript',
+        collapsable: false,
+        sidebarDepth: 1,
+        children: [
+          '/JavaScript/variable-and-type',
+          '/JavaScript/execution-context',
+          '/JavaScript/scope-chain-and-closure',
+          '/JavaScript/prototype-chain',
+          '/JavaScript/execution-mechanism'
         ]
       },
       {
         title: '浏览器',
         children: [ /* ... */ ]
-      }
+      },
+      {
+        title: '数据结构与算法',
+        collapsable: false,
+        sidebarDepth: 1,
+        children: [
+          '/Algorithm/coding-skill'
+        ]
+      },
     ]
   }
 }
