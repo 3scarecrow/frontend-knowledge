@@ -20,11 +20,11 @@ module.exports = {
         collapsable: false,
         sidebarDepth: 1,
         children: [
-          '/JavaScript/variable-and-type',
-          '/JavaScript/execution-context',
-          '/JavaScript/scope-chain-and-closure',
-          '/JavaScript/prototype-chain',
-          '/JavaScript/execution-mechanism'
+          '/javascript/variable-and-type',
+          '/javascript/execution-context',
+          '/javascript/scope-chain-and-closure',
+          '/javascript/prototype-chain',
+          '/javascript/execution-mechanism'
         ]
       },
       {
@@ -36,7 +36,7 @@ module.exports = {
         collapsable: false,
         sidebarDepth: 1,
         children: [
-          '/Algorithm/coding-skill'
+          '/algorithm/coding-skill'
         ]
       },
     ]
