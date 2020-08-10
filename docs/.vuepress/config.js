@@ -32,11 +32,12 @@ module.exports = {
         children: [ /* ... */ ]
       },
       {
-        title: '数据结构与算法',
+        title: '算法',
         collapsable: false,
         sidebarDepth: 1,
         children: [
-          '/algorithm/coding-skill'
+          '/algorithm/unique',
+          '/algorithm/flatten'
         ]
       },
     ]
