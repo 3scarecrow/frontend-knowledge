@@ -1,4 +1,4 @@
-# 1. 数组去重
+# :japanese_ogre: 数组去重
 
 <!-- markdownlint-disable MD033 -->
 

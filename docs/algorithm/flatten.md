@@ -1,4 +1,4 @@
-# 2. 数组扁平化
+# :japanese_goblin: 数组扁平化
 
 <!-- markdownlint-disable MD033 -->
 

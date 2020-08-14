@@ -37,7 +37,8 @@ module.exports = {
         sidebarDepth: 1,
         children: [
           '/algorithm/unique',
-          '/algorithm/flatten'
+          '/algorithm/flatten',
+          '/algorithm/cloneDeep',
         ]
       },
     ]
