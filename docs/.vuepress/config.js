@@ -39,6 +39,9 @@ module.exports = {
           '/algorithm/unique',
           '/algorithm/flatten',
           '/algorithm/cloneDeep',
+          '/algorithm/curry',
+          '/algorithm/tree-traverse',
+          '/algorithm/call-apply-bind',
         ]
       },
     ]
