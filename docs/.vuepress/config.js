@@ -42,6 +42,7 @@ module.exports = {
           '/algorithm/curry',
           '/algorithm/tree-traverse',
           '/algorithm/call-apply-bind',
+          '/algorithm/event-emitter',
         ]
       },
     ]
