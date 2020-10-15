@@ -1,12 +1,10 @@
-# :balance_scale: 执行机制
-
-## Event Loop
+# Event Loop
 
 众所周知，JavaScript 是**单线程**的，只有一个主线程，因此主线程一次只能执行一个任务，那么假设有一个任务执行需要花费 20 秒，那么其他的任务就得在 20 秒后才会被执行（例如 更新 UI），因此 UI 就会被阻塞，迟迟得不到更新。由此这些会阻塞主线程的任务就会通过异步，非阻塞的方式被调用，而 JavaScript 的异步需要通过事件循环来实现的（**该事件循环并非 JavaScript 的事件循环，而是浏览器的事件循环或者 JavaScript 运行环境的事件循环（node）**）
 
 事件循环是用来协调事件、用户交互、脚本、渲染和网络等，例如鼠标点击、事件回调、执行脚本或者网络请求等等都由事件循环在背后进行协调。那事件循环是如何协调这些的呢？答案是 task queue。
 
-### task
+## task
 
 每个事件循环有一个或者多个 **task queue**。当用户代理安排一个新的 task 时将被插入到对应的 task queue。task 也被称为 **macrotask**， 区分于 **microtask**。task 是由指定的**任务源**来提供任务的。
 
@@ -59,7 +57,7 @@ first timeout
 click
 ```
 
-### microtask
+## microtask
 
 在讲事件循环是如何工作之前，还需要了解 microtask
 
