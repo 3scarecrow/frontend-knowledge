@@ -21,29 +21,6 @@ module.exports = {
     repo: 'https://github.com/3scarecrow/frontend-knowledge',
     docsDir: 'docs',
     lastUpdated: '上次更新',
-    // sidebar: {
-    //   '/': [
-    //     '/',
-    //     {
-    //       title: 'JavaScript',
-    //       collapsable: false,
-    //       sidebarDepth: 1,
-    //       children: [
-    //         {
-    //           title: '变量与类型',
-    //           collapsable: false,
-    //           children: [
-    //             '/javascript/variable-and-type',
-    //           ]
-    //         },
-    //         '/javascript/execution-context',
-    //         '/javascript/scope-chain-and-closure',
-    //         '/javascript/prototype-chain',
-    //         '/javascript/execution-mechanism'
-    //       ]
-    //     },
-    //   ]
-    // }
     sidebar: [
       {
         title: 'Home',
@@ -96,7 +73,32 @@ module.exports = {
       },
       {
         title: '浏览器',
-        children: [ /* ... */ ]
+        children: [ 
+          '/browser/cross-origin',
+          '/browser/critical-rendering-path',
+          '/browser/browser-cache'
+        ]
+      },
+      {
+        title: '计算机网络',
+        children: [
+          '/network/dns',
+          '/network/tcp',
+          {
+            title: 'HTTP',
+            collapsable: false,
+            children: [
+              '/network/http/request-response',
+              '/network/http/cache',
+            ]
+          },
+        ]
+      },
+      {
+        title: '性能',
+        children: [
+          '/performance/webpack'
+        ]
       },
       {
         title: '算法',
