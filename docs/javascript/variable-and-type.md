@@ -129,8 +129,7 @@ object instanceof constructor
 
 `object` 表示实例对象，而 `constructor` 表示构造函数
 
-- instanceof 能判断引用类型（包括通过基本包装类型创建的实例对象）
-- 不能判断不是通过基本包装类型创建的原始类型值
+- instanceof 仅能用于判断引用类型（包括通过基本包装类型创建的实例对象）
 
 ```js
 // instanceof 无法判断不是通过基本包装类型创建的原始类型值
@@ -168,7 +167,7 @@ array.constructor === Object // false
 null.constructor === Null // Uncaught TypeError: Cannot read property 'constructor' of null
 ```
 
-- 实例对象的 constructor 属性是可更改的，所以通过实例对象的constructor属性来判断并安全
+- 实例对象的 constructor 属性是可更改的，所以通过实例对象的constructor属性来判断不安全
 
 ```js
 let object = {}
