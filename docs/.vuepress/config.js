@@ -88,10 +88,12 @@ module.exports = {
             title: 'HTTP',
             collapsable: false,
             children: [
-              '/network/http/request-response',
+              '/network/http/http',
+              '/network/http/message',
               '/network/http/cache',
             ]
           },
+          '/network/http2'
         ]
       },
       {
