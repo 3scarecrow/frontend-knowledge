@@ -110,6 +110,14 @@ module.exports = {
           '/algorithm/tree-traverse',
         ]
       },
+      {
+        title: '其他',
+        collapsable: true,
+        sidebarDepth: 1,
+        children: [
+          '/other/shin-virtual-scroll-list',
+        ]
+      },
     ]
   }
 }
